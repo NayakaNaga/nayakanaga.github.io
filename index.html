@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<b>TODAY CARDS</b> | <a href="all.html">ALL CARDS</a>
+	</nav>
+	
+	<div id="cards"></div>
+</body>
+</html>
+
+
+<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="tilt.jquery.js"></script>
+<script type="text/javascript" src="games.js"></script>
+
+<script type="text/javascript">
+	
+	var games = Object.values(data);
+	var cards = false;
+
+	cookie = getCookie('cards');
+	if (cookie != '') {
+		cards = JSON.parse(cookie);
+	}
+	
+	var acards = [];
+
+	if (cards) {
+		for (var y = 0; y < 5; y++) {
+			var i = cards[y];
+
+			document.getElementById("cards").innerHTML += '		 	<div class="card '+ games[i].system +'" style="background: url(\'games/'+ games[i].game +'/image.jpg\') no-repeat center; background-size: cover;">			<div class="name">'+ games[i].name +'</div>		<div class="type"><span>'+ games[i].type +'</span></div>	<div class="logo"><img src="games/'+ games[i].game +'/logo.png" alt="'+ games[i].game +'"></div>	 		<div class="system"><img src="system/'+ games[i].system +'.png"><span>'+ (i+1) +'</span></div>	</div>';
+		};
+	} else {
+		for (var y = 0; y < 5; y++) {
+			var i = Math.floor(Math.random() * games.length);
+
+			acards[y] = i;
+			document.getElementById("cards").innerHTML += '		 	<div class="card '+ games[i].system +'" style="background: url(\'games/'+ games[i].game +'/image.jpg\') no-repeat center; background-size: cover;">			<div class="name">'+ games[i].name +'</div>		<div class="type"><span>'+ games[i].type +'</span></div>	<div class="logo"><img src="games/'+ games[i].game +'/logo.png" alt="'+ games[i].game +'"></div>	 		<div class="system"><img src="system/'+ games[i].system +'.png"><span>'+ (i+1) +'</span></div>	</div>';
+		};
+		setCookie('cards', JSON.stringify(acards), 1);
+	}		
+
+	function setCookie(cname, cvalue, exdays) {
+		var expires = "";
+		var date = new Date();
+		var midnight = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 23, 59, 59);
+		expires = "; expires=" + midnight.toGMTString();
+	  	document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+
+	function getCookie(cname) {
+	  let name = cname + "=";
+	  let decodedCookie = decodeURIComponent(document.cookie);
+	  let ca = decodedCookie.split(';');
+	  for(let i = 0; i <ca.length; i++) {
+	    let c = ca[i];
+	    while (c.charAt(0) == ' ') {
+	      c = c.substring(1);
+	    }
+	    if (c.indexOf(name) == 0) {
+	      return c.substring(name.length, c.length);
+	    }
+	  }
+	  return "";
+	}
+
+	// $('.card').tilt({
+	//     glare: true,
+	//     maxGlare: .5
+	// })
+
+</script>
