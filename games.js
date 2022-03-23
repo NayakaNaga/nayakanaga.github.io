@@ -20,7 +20,7 @@ data.push(
 	},
 	{
 		"name": "Princess Peach",
-		"game": "Super Mario 3",
+		"game": "Super mario 3",
 		"type": "🌞",
 		"system": "snes"
 	},	
