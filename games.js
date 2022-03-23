@@ -328,7 +328,7 @@ data.push(
 		"name": "Brigid Tenenbaum",
 		"type": "📺",
 		"system": "pc",
-		"game": "BioShock",
+		"game": "Bioshock",
 	},
 	{
 		"name": "Alyx Vance",
@@ -502,7 +502,7 @@ data.push(
 		"name": "Eleanor Lamb \"Big Sister\"",
 		"type": "📺",
 		"system": "pc",
-		"game": "BioShock 2",
+		"game": "Bioshock 2",
 	},
 	{
 		"name": "",
@@ -742,7 +742,7 @@ data.push(
 		"name": "Elizabeth Comstock",
 		"type": "📺",
 		"system": "pc",
-		"game": "BioShock infinite",
+		"game": "Bioshock infinite",
 	},
 	{
 		"name": "Molly",
