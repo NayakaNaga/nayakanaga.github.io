@@ -1,1 +1,0 @@
-# nayakanaga.github.io

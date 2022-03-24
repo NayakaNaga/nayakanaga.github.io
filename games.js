@@ -547,6 +547,12 @@ data.push(
 		"game": "Fallout New Vegas",
 	},
 	{
+		"name": "Dana Mercer",
+		"type": "🍌",
+		"system": "pc",
+		"game": "Prototype",
+	},
+	{
 		"name": "",
 		"type": "💀",
 		"system": "pc",
@@ -1238,7 +1244,7 @@ data.push(
 	},
 	// {
 	// 	"name": "Nisha",
-	// 	"type": "🍌",
+	// 	"type": "👈",
 	// 	"system": "pc",
 	// 	"game": "Borderlands Pre-sequel"	
 	// },
