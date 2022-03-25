@@ -343,7 +343,7 @@ data.push(
 		"game": "Portal"
 	},
 	{
-		"name": "Triss Merigold",
+		"name": "Shani",
 		"type": "👌",
 		"system": "pc",
 		"game": "The Witcher"
@@ -589,7 +589,7 @@ data.push(
 		"game": "Duke Nukem Forever"	
 	},
 	{
-		"name": "Sìle de Tansarville",
+		"name": "Triss Merigold",
 		"type": "👌",
 		"system": "pc",
 		"game": "The Witcher 2"
@@ -877,7 +877,7 @@ data.push(
 		"game": "Wolfenstein the old blood"
 	},
 	{
-		"name": "Yennefer",
+		"name": "Ciri",
 		"type": "👌",
 		"system": "pc",
 		"game": "The Witcher 3"
