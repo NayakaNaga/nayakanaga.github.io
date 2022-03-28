@@ -169,6 +169,12 @@ data.push(
 		"system": "snes"
 	},	
 	{
+		"name": "Honda Momochiyo",
+		"type": "👈",
+		"system": "snes",
+		"game": "Osu Karate Bu"	
+	},
+	{
 		"name": "Gina Cross",
 		"type": "🍌",
 		"system": "pc",
@@ -1242,9 +1248,21 @@ data.push(
 		"system": "pc",
 		"game": "Alan Wake"	
 	},
+	{
+		"name": "Kimberly Hart",
+		"type": "👉",
+		"system": "snes",
+		"game": "Mighty Morphin Power Rangers"	
+	},
+	{
+		"name": "Lipsyncher",
+		"type": "💧",
+		"system": "snes",
+		"game": "Mighty Morphin Power Rangers The Fighting Edition"	
+	},
 	// {
 	// 	"name": "Nisha",
-	// 	"type": "👈",
+	// 	"type": "🌞",
 	// 	"system": "pc",
 	// 	"game": "Borderlands Pre-sequel"	
 	// },
