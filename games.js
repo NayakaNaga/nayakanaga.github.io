@@ -1153,6 +1153,12 @@ data.push(
 		"game": "Cyberpunk 2077",
 	},
 	{
+		"name": "Major Jones",
+		"type": "📺",
+		"system": "pc",
+		"game": "XIII"	
+	},
+	{
 		"name": "Maya Torres",
 		"type": "♿",
 		"system": "pc",
@@ -1265,6 +1271,12 @@ data.push(
 		"type": "🌞",
 		"system": "pc",
 		"game": "Borderlands Pre-sequel"	
+	},
+	{
+		"name": "Bodyguard",
+		"type": "💭",
+		"system": "pc",
+		"game": "Hotline Miami"	
 	},
 );
 
