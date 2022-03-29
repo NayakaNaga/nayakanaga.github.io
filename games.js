@@ -1260,12 +1260,12 @@ data.push(
 		"system": "snes",
 		"game": "Mighty Morphin Power Rangers The Fighting Edition"	
 	},
-	// {
-	// 	"name": "Nisha",
-	// 	"type": "🌞",
-	// 	"system": "pc",
-	// 	"game": "Borderlands Pre-sequel"	
-	// },
+	{
+		"name": "Nisha",
+		"type": "🌞",
+		"system": "pc",
+		"game": "Borderlands Pre-sequel"	
+	},
 );
 
 
