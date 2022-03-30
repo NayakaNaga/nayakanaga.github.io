@@ -1123,6 +1123,12 @@ data.push(
 		"game": "SGW Contracts"
 	},
 	{
+		"name": "Mono",
+		"type": "💭",
+		"system": "ps4",
+		"game": "Shadow of the Colossus"	
+	},
+	{
 		"name": "Ellie Williams",
 		"type": "👉",
 		"system":"ps4",
@@ -1274,7 +1280,7 @@ data.push(
 	},
 	{
 		"name": "Bodyguard",
-		"type": "💭",
+		"type": "🚶",
 		"system": "pc",
 		"game": "Hotline Miami"	
 	},
