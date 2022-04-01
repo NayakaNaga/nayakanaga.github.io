@@ -1284,6 +1284,12 @@ data.push(
 		"system": "pc",
 		"game": "Hotline Miami"	
 	},
+	{
+		"name": "Jade",
+		"type": "♿",
+		"system": "pc",
+		"game": "Beyond Good and Evil"	
+	},
 );
 
 
