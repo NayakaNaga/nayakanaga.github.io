@@ -1063,6 +1063,12 @@ data.push(
 		"game": "RDR 2",
 	},
 	{
+		"name": "Senua",
+		"type": "♿",
+		"system": "pc",
+		"game": "Hellblade"	
+	},
+	{
 		"name": "Solveig Fia Bjørnstad",
 		"type": "🌞",
 		"system": "pc",
@@ -1286,7 +1292,7 @@ data.push(
 	},
 	{
 		"name": "Jade",
-		"type": "♿",
+		"type": "🛀",
 		"system": "pc",
 		"game": "Beyond Good and Evil"	
 	},
