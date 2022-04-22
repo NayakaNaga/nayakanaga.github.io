@@ -979,12 +979,6 @@ data.push(
 		"game": "Life is Strange"	
 	},
 	{
-		"name": "Vicki Vale",
-		"type": "🌞",
-		"system": "ps4",
-		"game": "Batman The Telltale Series Season 1"	
-	},
-	{
 		"name": "Aloy",
 		"game": "Horizon Zero Dawn",
 		"type": "💧",
@@ -1292,13 +1286,13 @@ data.push(
 	},
 	{
 		"name": "Jade",
-		"type": "🛀",
+		"type": "🌞",
 		"system": "pc",
 		"game": "Beyond Good and Evil"	
 	},
 	{
 		"name": "Ulene Hlervu",
-		"type": "🌜",
+		"type": "🛀",
 		"system": "pc",
 		"game": "Oblivion"	
 	},
