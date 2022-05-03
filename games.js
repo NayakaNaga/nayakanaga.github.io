@@ -253,8 +253,8 @@ data.push(
 		"game": "FarCry",
 	},	
 	{
-		"name": "School Girl",
-		"type": "🌜",
+		"name": "",
+		"type": "💀",
 		"system": "pc",
 		"game": "CS Condition Zero"	
 	},	
@@ -1292,9 +1292,21 @@ data.push(
 	},
 	{
 		"name": "Ulene Hlervu",
-		"type": "🛀",
+		"type": "🌜",
 		"system": "pc",
 		"game": "Oblivion"	
+	},
+	{
+		"name": "",
+		"type": "💀",
+		"system": "snes",
+		"game": "DK Country"	
+	},
+	{
+		"name": "Rio Morales",
+		"type": "🛀",
+		"system": "ps4",
+		"game": "Spider-man Miles Morales"	
 	},
 );
 
