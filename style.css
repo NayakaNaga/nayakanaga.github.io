@@ -64,7 +64,7 @@ nav a {
 
 .card.pc {
 	border-color: #353535;
-	background-color: black !important;
+	background-color: #000000 !important;
 }
 
 .card.ps3, .card.ps4 {

@@ -145,8 +145,8 @@ data.push(
 		"system": "snes"
 	},
 	{
-		"name": "Striper",
-		"type": "👌",
+		"name": "",
+		"type": "💀",
 		"system": "pc",
 		"game": "Duke Nukem 3D"	
 	},
@@ -1304,7 +1304,7 @@ data.push(
 	},
 	{
 		"name": "Rio Morales",
-		"type": "🛀",
+		"type": "👌",
 		"system": "ps4",
 		"game": "Spider-man Miles Morales"	
 	},
@@ -1313,4 +1313,4 @@ data.push(
 
 
 
-//💀👈👉💧🌞📺💭🚶♿🛀🌜👌🍌
+//💀👈👉💧🌞📺💭🚶♿ 🛀🌜👌🍌
